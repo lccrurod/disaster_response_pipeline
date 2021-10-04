@@ -69,9 +69,9 @@ From the app directory run
 
 ## The web app
 
-![First screenshot!](/assets/screenshot1.png)
+![First screenshot](https://github.com/lccrurod/disaster_response_pipeline/blob/master/assets/screenshot1.PNG)
 
-![Second screenshot!](/assets/screenshot2.png)
+![Second screenshot](https://github.com/lccrurod/disaster_response_pipeline/blob/master/assets/screenshot2.PNG)
 
 
 ## Acknowlegments
