@@ -57,6 +57,8 @@ From the models directory run
 
 > `python train_classifier.py ../data/messages_application.db classifier.pkl`
 
+This process takes several minutes.
+
 ### 3. run.py
 
 From the app directory run
