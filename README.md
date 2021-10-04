@@ -72,3 +72,12 @@ From the app directory run
 ![First screenshot!](/assets/screenshot1.png)
 
 ![Second screenshot!](/assets/screenshot2.png)
+
+
+## Acknowlegments
+
+For this particular project I found pretty useful this [thread](https://stackoverflow.com/questions/27732354/unable-to-load-files-using-pickle-and-multiple-modules, "stackoverflow") about pickling and unpickling objects in python.
+
+When working with GitHub and the pickle ML model was helpful the [guide](https://git-lfs.github.com./,'git-lfs') for working with large size files.
+
+Finally for setting my local CMD for running the flask app and succesfully excecute the web app I refered to the  [quickstart documentation](https://flask.palletsprojects.com/en/2.0.x/quickstart/, "flask-doc") from the Flask team.

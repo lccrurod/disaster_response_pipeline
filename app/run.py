@@ -25,14 +25,14 @@ class CustomUnpickler(pickle.Unpickler):
   """
   Unpickler object to specify modules used in the model construction.
   """
-    def find_class(self, module, name):
-        if name == 'tokenize':
-            from extra_func import tokenize
-            return tokenize
-        if name == 'VerbCountExtractor':
-            from extra_func import VerbCountExtractor
-            return VerbCountExtractor
-        return super().find_class(module, name)
+  def find_class(self, module, name):
+    if name == 'tokenize':
+      from extra_func import tokenize
+      return tokenize
+    if name == 'VerbCountExtractor':
+      from extra_func import VerbCountExtractor
+      return VerbCountExtractor
+    return super().find_class(module, name)
 
 
 app = Flask(__name__)
